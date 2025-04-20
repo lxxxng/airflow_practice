@@ -447,3 +447,38 @@
 [2025-04-20T22:05:27.131+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:05:27.130+0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-20T22:05:27.153+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:05:27.152+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2025-04-20T22:05:27.222+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.179 seconds
+[2025-04-20T22:07:12.089+0800] {processor.py:186} INFO - Started process (PID=131930) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:07:12.090+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-20T22:07:12.093+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:07:12.092+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:07:12.117+0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:07:12.150+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:07:12.149+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:07:12.165+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:07:12.164+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-20T22:07:12.227+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.151 seconds
+[2025-04-20T22:08:59.303+0800] {processor.py:186} INFO - Started process (PID=132868) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:08:59.306+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-20T22:08:59.314+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:08:59.312+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:08:59.374+0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:08:58.642+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:08:58.640+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:08:58.719+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:08:58.711+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-20T22:08:58.876+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.442 seconds
+[2025-04-20T22:10:48.592+0800] {processor.py:186} INFO - Started process (PID=133811) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:10:48.595+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-20T22:10:48.598+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:10:48.597+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:10:48.629+0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:10:48.667+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:10:48.666+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:10:48.684+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:10:48.683+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-20T22:10:48.749+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
+[2025-04-20T22:12:51.562+0800] {processor.py:186} INFO - Started process (PID=134681) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:12:51.565+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-20T22:12:51.568+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:12:51.567+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:12:51.622+0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:12:51.731+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:12:51.729+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:12:51.774+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:12:51.772+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-20T22:12:51.918+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.391 seconds
+[2025-04-20T22:15:00.221+0800] {processor.py:186} INFO - Started process (PID=135557) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:15:00.223+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-20T22:15:00.227+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:15:00.226+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:15:00.271+0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-20T22:15:00.341+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:15:00.340+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:15:00.367+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:15:00.366+0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-20T22:15:00.481+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.278 seconds

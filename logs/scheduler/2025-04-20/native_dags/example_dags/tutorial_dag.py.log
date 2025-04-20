@@ -846,3 +846,73 @@
 [2025-04-20T22:05:02.546+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:05:02.544+0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-20T22:05:02.608+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:05:02.606+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2025-04-20T22:05:02.740+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.367 seconds
+[2025-04-20T22:06:00.896+0800] {processor.py:186} INFO - Started process (PID=131157) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:06:00.897+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:06:00.900+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:06:00.899+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:06:00.922+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:06:00.947+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:06:00.946+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:06:00.964+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:06:00.963+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:06:01.013+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.129 seconds
+[2025-04-20T22:06:52.770+0800] {processor.py:186} INFO - Started process (PID=131770) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:06:52.772+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:06:52.776+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:06:52.775+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:06:52.804+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:06:52.836+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:06:52.835+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:06:52.864+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:06:52.863+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:06:52.923+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.168 seconds
+[2025-04-20T22:07:41.116+0800] {processor.py:186} INFO - Started process (PID=132311) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:07:41.124+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:07:41.128+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:07:41.126+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:07:41.157+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:07:41.200+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:07:41.199+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:07:41.236+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:07:41.235+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:07:41.351+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.252 seconds
+[2025-04-20T22:08:35.738+0800] {processor.py:186} INFO - Started process (PID=132709) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:08:35.740+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:08:35.742+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:08:35.742+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:08:35.774+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:08:35.808+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:08:35.807+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:08:35.826+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:08:35.825+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:08:35.905+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.183 seconds
+[2025-04-20T22:09:33.852+0800] {processor.py:186} INFO - Started process (PID=133106) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:09:33.855+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:09:33.862+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:09:33.860+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:09:33.898+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:09:33.965+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:09:33.957+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:09:34.081+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:09:34.057+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:09:34.608+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.780 seconds
+[2025-04-20T22:10:30.015+0800] {processor.py:186} INFO - Started process (PID=133650) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:10:30.021+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:10:30.026+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:10:30.024+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:10:30.063+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:10:30.109+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:10:30.108+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:10:30.147+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:10:30.145+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:10:30.256+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.261 seconds
+[2025-04-20T22:11:32.436+0800] {processor.py:186} INFO - Started process (PID=134090) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:11:32.438+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:11:32.441+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:11:32.440+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:11:32.467+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:11:32.505+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:11:32.504+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:11:32.524+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:11:32.523+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:11:32.605+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.186 seconds
+[2025-04-20T22:12:30.787+0800] {processor.py:186} INFO - Started process (PID=134522) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:12:30.789+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:12:30.796+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:12:30.794+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:12:30.851+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:12:30.963+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:12:30.961+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:12:31.023+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:12:31.021+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:12:31.244+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.494 seconds
+[2025-04-20T22:13:32.923+0800] {processor.py:186} INFO - Started process (PID=134920) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:13:32.932+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:13:32.940+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:13:32.938+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:13:32.980+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:13:33.080+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:13:33.078+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:13:33.120+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:13:33.118+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:13:33.283+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.401 seconds
+[2025-04-20T22:14:39.323+0800] {processor.py:186} INFO - Started process (PID=135327) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:14:39.324+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-20T22:14:39.326+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:14:39.326+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:14:39.347+0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-20T22:14:39.372+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:14:39.371+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:14:39.385+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:14:39.384+0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-20T22:14:39.444+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.132 seconds
