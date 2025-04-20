@@ -1164,3 +1164,113 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2025-04-20T23:33:49.677+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:33:49.676+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2025-04-20T23:33:49.679+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2025-04-20T23:33:49.715+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.106 seconds
+[2025-04-20T23:36:06.314+0800] {processor.py:186} INFO - Started process (PID=177721) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:36:06.316+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:36:06.321+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:06.319+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:36:06.375+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:06.364+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:36:06.382+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:06.378+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:36:06.384+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:36:06.422+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.130 seconds
+[2025-04-20T23:38:28.922+0800] {processor.py:186} INFO - Started process (PID=178818) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:38:28.929+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:38:28.938+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:28.935+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:38:28.987+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:28.976+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:38:28.990+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:28.988+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:38:28.992+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:38:29.049+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.159 seconds
+[2025-04-20T23:40:46.165+0800] {processor.py:186} INFO - Started process (PID=179849) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:40:46.168+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:40:46.174+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:40:46.170+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:40:46.230+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:40:46.222+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:40:46.233+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:40:46.232+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:40:46.235+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:40:46.299+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.159 seconds
+[2025-04-20T23:43:01.085+0800] {processor.py:186} INFO - Started process (PID=180880) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:43:01.090+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:43:01.098+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:01.095+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:43:01.186+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:01.167+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:43:01.193+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:01.190+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:43:01.196+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:43:01.250+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.201 seconds
+[2025-04-20T23:45:04.643+0800] {processor.py:186} INFO - Started process (PID=182266) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:45:04.646+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:45:04.651+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:04.650+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:45:04.688+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:04.681+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:45:04.691+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:04.690+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:45:04.692+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:45:04.722+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.102 seconds
+[2025-04-20T23:47:11.274+0800] {processor.py:186} INFO - Started process (PID=183621) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:47:11.278+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:47:11.283+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:11.281+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:47:11.375+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:11.366+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:47:11.381+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:11.376+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:47:11.383+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:47:11.424+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.173 seconds
+[2025-04-20T23:49:42.672+0800] {processor.py:186} INFO - Started process (PID=184760) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:49:42.675+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:49:42.680+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:49:42.678+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:49:42.715+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:49:42.706+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:49:42.718+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:49:42.717+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:49:42.722+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:49:42.759+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.104 seconds
+[2025-04-20T23:52:12.628+0800] {processor.py:186} INFO - Started process (PID=185789) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:52:12.631+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:52:12.634+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:12.633+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:52:12.684+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:12.671+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:52:12.687+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:12.686+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:52:12.688+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:52:12.734+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.134 seconds
+[2025-04-20T23:54:33.204+0800] {processor.py:186} INFO - Started process (PID=186676) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:54:33.212+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:54:33.217+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:33.215+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:54:33.268+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:33.260+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:54:33.277+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:33.270+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:54:33.280+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:54:33.338+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.157 seconds
+[2025-04-20T23:56:56.509+0800] {processor.py:186} INFO - Started process (PID=187709) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:56:56.517+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-04-20T23:56:56.521+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:56.520+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:56:56.571+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:56.558+0800] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-04-20T23:56:56.575+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:56.573+0800] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-04-20T23:56:56.577+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-04-20T23:56:56.642+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.174 seconds

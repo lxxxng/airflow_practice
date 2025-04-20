@@ -545,3 +545,143 @@
 [2025-04-20T23:34:05.828+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:34:05.826+0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-20T23:34:05.924+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:34:05.917+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
 [2025-04-20T23:34:06.045+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.375 seconds
+[2025-04-20T23:35:12.417+0800] {processor.py:186} INFO - Started process (PID=177363) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:35:12.421+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:35:12.428+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:35:12.426+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:35:12.496+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:35:12.573+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:35:12.570+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:35:12.630+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:35:12.627+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:35:12.784+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.394 seconds
+[2025-04-20T23:36:26.149+0800] {processor.py:186} INFO - Started process (PID=177875) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:36:26.153+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:36:26.158+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:26.156+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:36:26.213+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:36:26.264+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:26.263+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:36:26.308+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:26.306+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:36:26.417+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.292 seconds
+[2025-04-20T23:37:39.884+0800] {processor.py:186} INFO - Started process (PID=178425) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:37:39.886+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:37:39.892+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:37:39.890+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:37:39.940+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:37:40.003+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:37:39.997+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:37:40.073+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:37:40.065+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:37:40.186+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.328 seconds
+[2025-04-20T23:38:51.007+0800] {processor.py:186} INFO - Started process (PID=178978) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:38:51.010+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:38:51.015+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:51.014+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:38:51.086+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:38:51.173+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:51.171+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:38:51.272+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:51.270+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:38:51.427+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.449 seconds
+[2025-04-20T23:39:59.709+0800] {processor.py:186} INFO - Started process (PID=179454) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:39:59.713+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:39:59.719+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:39:59.717+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:39:59.819+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:39:59.884+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:39:59.882+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:39:59.958+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:39:59.954+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:40:00.081+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.400 seconds
+[2025-04-20T23:41:04.599+0800] {processor.py:186} INFO - Started process (PID=180009) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:41:04.602+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:41:04.607+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:41:04.605+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:41:04.655+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:41:04.705+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:41:04.703+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:41:04.743+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:41:04.741+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:41:04.847+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.270 seconds
+[2025-04-20T23:42:12.659+0800] {processor.py:186} INFO - Started process (PID=180554) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:42:12.662+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:42:12.667+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:42:12.665+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:42:12.715+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:42:12.760+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:42:12.758+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:42:12.794+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:42:12.792+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:42:12.887+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.248 seconds
+[2025-04-20T23:43:23.572+0800] {processor.py:186} INFO - Started process (PID=181040) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:43:23.575+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:43:23.580+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:23.578+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:43:23.633+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:43:23.683+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:23.681+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:43:23.837+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:23.835+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:43:23.935+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.387 seconds
+[2025-04-20T23:44:26.358+0800] {processor.py:186} INFO - Started process (PID=181805) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:44:26.361+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:44:26.366+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:44:26.363+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:44:26.420+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:44:26.459+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:44:26.458+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:44:26.537+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:44:26.525+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:44:26.621+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.291 seconds
+[2025-04-20T23:45:24.105+0800] {processor.py:186} INFO - Started process (PID=182495) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:45:24.107+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:45:24.111+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:24.110+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:45:24.166+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:45:24.238+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:24.237+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:45:24.298+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:24.295+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:45:24.379+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.296 seconds
+[2025-04-20T23:46:22.508+0800] {processor.py:186} INFO - Started process (PID=183118) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:46:22.511+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:46:22.515+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:46:22.513+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:46:22.562+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:46:22.605+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:46:22.604+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:46:22.639+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:46:22.637+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:46:22.736+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.247 seconds
+[2025-04-20T23:47:31.355+0800] {processor.py:186} INFO - Started process (PID=183809) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:47:31.357+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:47:31.362+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:31.360+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:47:31.400+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:47:31.466+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:31.465+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:47:31.549+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:31.545+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:47:31.648+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.314 seconds
+[2025-04-20T23:48:45.730+0800] {processor.py:186} INFO - Started process (PID=184294) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:48:45.733+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:48:45.739+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:48:45.737+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:48:45.791+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:48:45.841+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:48:45.839+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:48:45.884+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:48:45.881+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:48:46.126+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.421 seconds
+[2025-04-20T23:50:01.842+0800] {processor.py:186} INFO - Started process (PID=184960) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:50:01.845+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:50:01.849+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:50:01.848+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:50:01.899+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:50:01.949+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:50:01.947+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:50:01.982+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:50:01.981+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:50:02.095+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.275 seconds
+[2025-04-20T23:51:12.304+0800] {processor.py:186} INFO - Started process (PID=185393) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:51:12.317+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:51:12.327+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:51:12.323+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:51:12.381+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:51:12.450+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:51:12.449+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:51:12.957+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:51:12.920+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:51:13.089+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.807 seconds
+[2025-04-20T23:52:34.003+0800] {processor.py:186} INFO - Started process (PID=185878) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:52:34.008+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:52:34.018+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:34.016+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:52:34.085+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:52:34.156+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:34.154+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:52:34.212+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:34.210+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:52:34.347+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.384 seconds
+[2025-04-20T23:53:45.801+0800] {processor.py:186} INFO - Started process (PID=186428) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:53:45.804+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:53:45.809+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:53:45.807+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:53:45.851+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:53:46.069+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:53:46.063+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:53:46.128+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:53:46.125+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:53:46.244+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.481 seconds
+[2025-04-20T23:54:54.623+0800] {processor.py:186} INFO - Started process (PID=186834) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:54:54.626+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:54:54.630+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:54.629+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:54:54.692+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:54:54.746+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:54.744+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:54:54.828+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:54.826+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:54:54.965+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.363 seconds
+[2025-04-20T23:56:05.624+0800] {processor.py:186} INFO - Started process (PID=187385) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:56:05.628+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:56:05.638+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:05.636+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:56:05.688+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:56:05.751+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:05.750+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:56:05.846+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:05.836+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:56:05.982+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.381 seconds
+[2025-04-20T23:57:17.673+0800] {processor.py:186} INFO - Started process (PID=187867) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:57:17.676+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py for tasks to queue
+[2025-04-20T23:57:17.692+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:57:17.691+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:57:17.752+0800] {processor.py:925} INFO - DAG(s) 'dag_with_catchup_backfill_v02' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py
+[2025-04-20T23:57:17.827+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:57:17.816+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T23:57:17.915+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:57:17.912+0800] {dag.py:4180} INFO - Setting next_dagrun for dag_with_catchup_backfill_v02 to 2025-04-19 00:00:00+00:00, run_after=2025-04-20 00:00:00+00:00
+[2025-04-20T23:57:18.034+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dag_with_catchup_backfill.py took 0.386 seconds

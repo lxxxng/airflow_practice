@@ -488,3 +488,283 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'airflow.providers.postgres'
 [2025-04-20T23:34:04.292+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
 [2025-04-20T23:34:04.407+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.245 seconds
+[2025-04-20T23:35:10.816+0800] {processor.py:186} INFO - Started process (PID=177323) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:35:10.820+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:35:10.828+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:35:10.825+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:35:10.916+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:35:10.881+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:35:10.923+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:35:11.020+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.236 seconds
+[2025-04-20T23:36:24.606+0800] {processor.py:186} INFO - Started process (PID=177873) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:36:24.609+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:36:24.613+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:24.612+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:36:24.669+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:36:24.652+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:36:24.679+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:36:24.803+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.221 seconds
+[2025-04-20T23:37:38.308+0800] {processor.py:186} INFO - Started process (PID=178422) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:37:38.312+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:37:38.329+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:37:38.324+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:37:38.386+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:37:38.362+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:37:38.391+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:37:38.471+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.188 seconds
+[2025-04-20T23:38:49.376+0800] {processor.py:186} INFO - Started process (PID=178947) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:38:49.378+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:38:49.383+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:49.381+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:38:49.448+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:38:49.419+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:38:49.454+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:38:49.535+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.187 seconds
+[2025-04-20T23:39:59.014+0800] {processor.py:186} INFO - Started process (PID=179453) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:39:59.017+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:39:59.027+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:39:59.023+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:39:59.077+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:39:59.060+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:39:59.081+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:39:59.188+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.201 seconds
+[2025-04-20T23:41:03.221+0800] {processor.py:186} INFO - Started process (PID=180006) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:41:03.224+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:41:03.228+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:41:03.226+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:41:03.281+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:41:03.262+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:41:03.286+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:41:03.354+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.153 seconds
+[2025-04-20T23:42:11.718+0800] {processor.py:186} INFO - Started process (PID=180552) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:42:11.721+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:42:11.726+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:42:11.724+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:42:11.789+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:42:11.768+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:42:11.793+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:42:11.874+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.176 seconds
+[2025-04-20T23:43:22.150+0800] {processor.py:186} INFO - Started process (PID=181036) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:43:22.155+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:43:22.158+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:22.157+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:43:22.188+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:43:22.177+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:43:22.191+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:43:22.265+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.139 seconds
+[2025-04-20T23:44:24.856+0800] {processor.py:186} INFO - Started process (PID=181774) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:44:24.859+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:44:24.864+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:44:24.862+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:44:24.918+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:44:24.896+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:44:24.923+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:44:25.029+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.195 seconds
+[2025-04-20T23:45:22.717+0800] {processor.py:186} INFO - Started process (PID=182451) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:45:22.721+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:45:22.725+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:22.723+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:45:22.780+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:45:22.761+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:45:22.785+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:45:22.859+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.163 seconds
+[2025-04-20T23:46:21.625+0800] {processor.py:186} INFO - Started process (PID=183115) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:46:21.627+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:46:21.632+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:46:21.630+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:46:21.681+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:46:21.664+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:46:21.685+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:46:21.748+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.143 seconds
+[2025-04-20T23:47:30.605+0800] {processor.py:186} INFO - Started process (PID=183808) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:47:30.608+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:47:30.613+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:30.611+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:47:30.649+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:47:30.636+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:47:30.652+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:47:30.711+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.124 seconds
+[2025-04-20T23:48:44.444+0800] {processor.py:186} INFO - Started process (PID=184290) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:48:44.447+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:48:44.455+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:48:44.450+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:48:44.499+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:48:44.483+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:48:44.505+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:48:44.562+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.149 seconds
+[2025-04-20T23:50:00.455+0800] {processor.py:186} INFO - Started process (PID=184920) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:50:00.458+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:50:00.462+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:50:00.460+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:50:00.515+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:50:00.495+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:50:00.520+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:50:00.587+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.152 seconds
+[2025-04-20T23:51:11.368+0800] {processor.py:186} INFO - Started process (PID=185392) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:51:11.370+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:51:11.374+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:51:11.373+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:51:11.410+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:51:11.397+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:51:11.414+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:51:11.537+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.188 seconds
+[2025-04-20T23:52:32.937+0800] {processor.py:186} INFO - Started process (PID=185874) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:52:32.939+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:52:32.945+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:32.943+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:52:32.990+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:52:32.975+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:52:32.995+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:52:33.079+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.161 seconds
+[2025-04-20T23:53:44.288+0800] {processor.py:186} INFO - Started process (PID=186358) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:53:44.293+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:53:44.298+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:53:44.297+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:53:44.366+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:53:44.340+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:53:44.371+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:53:44.458+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.192 seconds
+[2025-04-20T23:54:53.143+0800] {processor.py:186} INFO - Started process (PID=186833) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:54:53.146+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:54:53.154+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:53.152+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:54:53.209+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:54:53.185+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:54:53.213+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:54:53.294+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.182 seconds
+[2025-04-20T23:56:04.081+0800] {processor.py:186} INFO - Started process (PID=187384) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:56:04.091+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:56:04.096+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:04.094+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:56:04.148+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:56:04.130+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:56:04.155+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:56:04.233+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.178 seconds
+[2025-04-20T23:57:16.132+0800] {processor.py:186} INFO - Started process (PID=187866) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:57:16.155+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py for tasks to queue
+[2025-04-20T23:57:16.163+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:57:16.161+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:57:16.209+0800] {logging_mixin.py:190} INFO - [2025-04-20T23:57:16.196+0800] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py", line 4, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2025-04-20T23:57:16.218+0800] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py
+[2025-04-20T23:57:16.303+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/dags_with_postgresql.py took 0.206 seconds
