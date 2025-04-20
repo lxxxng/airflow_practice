@@ -15,5 +15,23 @@ with DAG(
     schedule_interval='@daily',
     start_date=datetime(2023, 10, 1),
 ) as dag:
-    task_id="first_task"
-    bash_command="echo 'Hello World'"
+    # Task 1 (Upstream)
+    task1 = BashOperator(
+        task_id='task1',
+        bash_command='echo "Task 1 completed"',
+    )
+
+    # Task 2 (Downstream of task1)
+    task2 = BashOperator(
+        task_id='task2',
+        bash_command='echo "Task 2 completed"',
+    )
+
+    # Task 3 (Downstream of task2)
+    task3 = BashOperator(
+        task_id='task3',
+        bash_command='echo "Task 3 completed"',
+    )
+
+    # Set task dependencies (task1 -> task2 -> task3)
+    task1 >> task2 >> task3
