@@ -1,4 +1,4 @@
-#### conda env with python 3.9, using ubuntu 
+#### conda env with python 3.6, using ubuntu 
 # source venv/bin/activate
 
 #### install airflow from official github repo 
