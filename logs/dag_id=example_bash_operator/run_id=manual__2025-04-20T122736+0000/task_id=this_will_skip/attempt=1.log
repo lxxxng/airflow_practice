@@ -1,0 +1,26 @@
+[2025-04-20T20:33:46.847+0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-20T20:33:46.919+0800] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_bash_operator.this_will_skip manual__2025-04-20T12:27:36+00:00 [queued]>
+[2025-04-20T20:33:46.978+0800] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_bash_operator.this_will_skip manual__2025-04-20T12:27:36+00:00 [queued]>
+[2025-04-20T20:33:46.984+0800] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-20T20:33:47.135+0800] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): this_will_skip> on 2025-04-20 12:27:36+00:00
+[2025-04-20T20:33:47.151+0800] {standard_task_runner.py:72} INFO - Started process 76195 to run task
+[2025-04-20T20:33:47.162+0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'example_bash_operator', 'this_will_skip', 'manual__2025-04-20T12:27:36+00:00', '--job-id', '12', '--raw', '--subdir', '/mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmpfu6i4xqq']
+[2025-04-20T20:33:47.181+0800] {standard_task_runner.py:105} INFO - Job 12: Subtask this_will_skip
+[2025-04-20T20:33:47.379+0800] {task_command.py:467} INFO - Running <TaskInstance: example_bash_operator.this_will_skip manual__2025-04-20T12:27:36+00:00 [running]> on host lxxxng.
+[2025-04-20T20:33:48.089+0800] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_bash_operator' AIRFLOW_CTX_TASK_ID='this_will_skip' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T12:27:36+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-20T12:27:36+00:00'
+[2025-04-20T20:33:48.093+0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-04-20T20:33:48.122+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-04-20T20:33:48.126+0800] {logging_mixin.py:190} INFO - Current task name:this_will_skip state:running start_date:2025-04-20 12:33:46.929363+00:00
+[2025-04-20T20:33:48.138+0800] {logging_mixin.py:190} INFO - Dag name:example_bash_operator and current dag run status:running
+[2025-04-20T20:33:48.143+0800] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-20T20:33:48.160+0800] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-20T20:33:48.182+0800] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "hello world"; exit 99;']
+[2025-04-20T20:33:48.215+0800] {subprocess.py:99} INFO - Output:
+[2025-04-20T20:33:48.226+0800] {subprocess.py:106} INFO - hello world
+[2025-04-20T20:33:48.231+0800] {subprocess.py:110} INFO - Command exited with return code 99
+[2025-04-20T20:33:48.245+0800] {taskinstance.py:302} INFO - Bash command returned exit code 99. Skipping.
+[2025-04-20T20:33:48.414+0800] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-20T20:33:48.418+0800] {taskinstance.py:353} INFO - Marking task as SKIPPED. dag_id=example_bash_operator, task_id=this_will_skip, run_id=manual__2025-04-20T12:27:36+00:00, execution_date=20250420T122736, start_date=20250420T123346, end_date=20250420T123348
+[2025-04-20T20:33:48.684+0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-20T20:33:48.790+0800] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-20T20:33:48.848+0800] {local_task_job_runner.py:245} INFO - ::endgroup::
