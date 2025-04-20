@@ -1294,3 +1294,297 @@ TypeError: __init__() got an unexpected keyword argument 'descirption'
 [2025-04-20T22:15:23.389+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:15:23.388+0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-20T22:15:23.459+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:15:23.456+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
 [2025-04-20T22:15:23.542+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.271 seconds
+[2025-04-20T22:16:23.006+0800] {processor.py:186} INFO - Started process (PID=136260) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:16:23.011+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:16:23.017+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:16:23.015+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:16:23.073+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:16:23.167+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:16:23.164+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:16:23.262+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:16:23.259+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:16:23.402+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.424 seconds
+[2025-04-20T22:17:37.791+0800] {processor.py:186} INFO - Started process (PID=136812) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:17:37.795+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:17:37.800+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:17:37.798+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:17:37.838+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:17:37.888+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:17:37.886+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:17:37.973+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:17:37.965+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:17:38.066+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.295 seconds
+[2025-04-20T22:18:45.856+0800] {processor.py:186} INFO - Started process (PID=137293) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:18:45.864+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:18:45.868+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:18:45.867+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:18:45.921+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:18:45.991+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:18:45.987+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:18:46.069+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:18:46.063+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:18:46.198+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.380 seconds
+[2025-04-20T22:19:52.122+0800] {processor.py:186} INFO - Started process (PID=137766) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:19:52.132+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:19:52.140+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:19:52.138+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:19:52.185+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:19:52.240+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:19:52.238+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:19:52.304+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:19:52.302+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:19:52.407+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.313 seconds
+[2025-04-20T22:21:02.404+0800] {processor.py:186} INFO - Started process (PID=138173) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:21:02.408+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:21:02.412+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:21:02.411+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:21:02.473+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:21:02.644+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:21:02.643+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:21:02.677+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:21:02.676+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:21:02.803+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.433 seconds
+[2025-04-20T22:22:11.390+0800] {processor.py:186} INFO - Started process (PID=138647) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:22:11.396+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:22:11.401+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:22:11.399+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:22:11.462+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:22:11.530+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:22:11.525+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:22:11.593+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:22:11.592+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:22:11.761+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.399 seconds
+[2025-04-20T22:23:14.355+0800] {processor.py:186} INFO - Started process (PID=139240) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:23:14.358+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:23:14.362+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:23:14.360+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:23:14.404+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:23:14.451+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:23:14.449+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:23:14.489+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:23:14.488+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:23:14.585+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.248 seconds
+[2025-04-20T22:24:17.186+0800] {processor.py:186} INFO - Started process (PID=139815) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:24:17.192+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:24:17.198+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:24:17.195+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:24:17.247+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:24:17.314+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:24:17.313+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:24:17.396+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:24:17.391+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:24:17.527+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.369 seconds
+[2025-04-20T22:25:16.679+0800] {processor.py:186} INFO - Started process (PID=140363) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:25:16.681+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:25:16.685+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:25:16.684+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:25:16.720+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:25:16.761+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:25:16.760+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:25:16.817+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:25:16.815+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:25:16.920+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.261 seconds
+[2025-04-20T22:26:10.818+0800] {processor.py:186} INFO - Started process (PID=140836) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:26:10.825+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:26:10.829+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:26:10.827+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:26:10.918+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:26:10.993+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:26:10.989+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:26:11.068+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:26:11.067+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:26:11.193+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.397 seconds
+[2025-04-20T22:27:10.579+0800] {processor.py:186} INFO - Started process (PID=141237) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:27:10.582+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:27:10.588+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:27:10.586+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:27:10.624+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:27:10.671+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:27:10.670+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:27:10.726+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:27:10.725+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:27:10.811+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.253 seconds
+[2025-04-20T22:28:04.206+0800] {processor.py:186} INFO - Started process (PID=141854) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:28:04.209+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:28:04.213+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:28:04.212+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:28:04.251+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:28:04.295+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:28:04.293+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:28:04.352+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:28:04.350+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:28:04.443+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.257 seconds
+[2025-04-20T22:28:57.500+0800] {processor.py:186} INFO - Started process (PID=142476) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:28:57.503+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:28:57.507+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:28:57.506+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:28:57.546+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:28:57.594+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:28:57.592+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:28:57.642+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:28:57.638+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:28:57.731+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.250 seconds
+[2025-04-20T22:29:46.620+0800] {processor.py:186} INFO - Started process (PID=143023) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:29:46.623+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:29:46.628+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:29:46.626+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:29:46.671+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:29:46.717+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:29:46.715+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:29:46.750+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:29:46.748+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:29:46.850+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.250 seconds
+[2025-04-20T22:30:37.601+0800] {processor.py:186} INFO - Started process (PID=143636) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:30:37.603+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:30:37.609+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:30:37.606+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:30:37.659+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:30:37.713+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:30:37.712+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:30:37.767+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:30:37.764+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:30:37.838+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.259 seconds
+[2025-04-20T22:31:32.936+0800] {processor.py:186} INFO - Started process (PID=144253) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:31:32.938+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:31:32.942+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:31:32.941+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:31:32.994+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:31:33.037+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:31:33.035+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:31:33.092+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:31:33.090+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:31:33.177+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.261 seconds
+[2025-04-20T22:32:25.183+0800] {processor.py:186} INFO - Started process (PID=144840) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:32:25.187+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:32:25.191+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:32:25.189+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:32:25.238+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:32:25.286+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:32:25.284+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:32:25.322+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:32:25.320+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:32:25.460+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.298 seconds
+[2025-04-20T22:33:17.064+0800] {processor.py:186} INFO - Started process (PID=145458) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:33:17.067+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:33:17.072+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:33:17.070+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:33:17.124+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:33:17.172+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:33:17.170+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:33:17.212+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:33:17.210+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:33:17.365+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.322 seconds
+[2025-04-20T22:34:10.367+0800] {processor.py:186} INFO - Started process (PID=146105) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:34:10.372+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:34:10.377+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:34:10.375+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:34:10.413+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:34:10.461+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:34:10.460+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:34:10.519+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:34:10.515+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:34:10.626+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.279 seconds
+[2025-04-20T22:35:03.727+0800] {processor.py:186} INFO - Started process (PID=146689) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:35:03.730+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:35:03.734+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:35:03.733+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:35:03.779+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:35:03.827+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:35:03.825+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:35:03.877+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:35:03.875+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:35:03.978+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.271 seconds
+[2025-04-20T22:35:55.430+0800] {processor.py:186} INFO - Started process (PID=147308) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:35:55.433+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:35:55.437+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:35:55.436+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:35:55.484+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:35:55.531+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:35:55.529+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:35:55.569+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:35:55.567+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:35:55.678+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.271 seconds
+[2025-04-20T22:36:49.699+0800] {processor.py:186} INFO - Started process (PID=147952) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:36:49.701+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:36:49.705+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:36:49.704+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:36:49.751+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:36:49.796+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:36:49.795+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:36:49.851+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:36:49.849+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:36:49.988+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.310 seconds
+[2025-04-20T22:37:42.221+0800] {processor.py:186} INFO - Started process (PID=148612) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:37:42.224+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:37:42.229+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:37:42.227+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:37:42.279+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:37:42.330+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:37:42.328+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:37:42.366+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:37:42.364+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:37:42.477+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.276 seconds
+[2025-04-20T22:38:35.723+0800] {processor.py:186} INFO - Started process (PID=149258) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:38:35.730+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:38:35.735+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:38:35.733+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:38:35.774+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:38:35.828+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:38:35.827+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:38:35.883+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:38:35.880+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:38:35.987+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.288 seconds
+[2025-04-20T22:39:29.900+0800] {processor.py:186} INFO - Started process (PID=149875) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:39:29.903+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:39:29.908+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:39:29.906+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:39:29.948+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:39:29.995+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:39:29.992+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:39:30.056+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:39:30.054+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:39:30.153+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.271 seconds
+[2025-04-20T22:40:22.585+0800] {processor.py:186} INFO - Started process (PID=150492) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:40:22.590+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:40:22.595+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:40:22.593+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:40:22.642+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:40:22.695+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:40:22.694+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:40:22.759+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:40:22.756+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:40:22.868+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.304 seconds
+[2025-04-20T22:41:15.288+0800] {processor.py:186} INFO - Started process (PID=151112) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:41:15.291+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:41:15.296+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:41:15.293+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:41:15.343+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:41:15.386+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:41:15.384+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:41:15.415+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:41:15.414+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:41:15.515+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.246 seconds
+[2025-04-20T22:42:06.599+0800] {processor.py:186} INFO - Started process (PID=151723) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:42:06.601+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:42:06.606+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:42:06.605+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:42:06.657+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:42:06.723+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:42:06.721+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:42:06.775+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:42:06.773+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:42:06.828+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.252 seconds
+[2025-04-20T22:42:58.797+0800] {processor.py:186} INFO - Started process (PID=152380) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:42:58.800+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:42:58.805+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:42:58.803+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:42:58.855+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:42:58.904+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:42:58.902+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:42:58.942+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:42:58.940+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:42:59.047+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.271 seconds
+[2025-04-20T22:43:48.315+0800] {processor.py:186} INFO - Started process (PID=152957) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:43:48.318+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:43:48.323+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:43:48.321+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:43:48.369+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:43:48.413+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:43:48.411+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:43:48.445+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:43:48.443+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:43:48.545+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.250 seconds
+[2025-04-20T22:44:40.281+0800] {processor.py:186} INFO - Started process (PID=153574) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:44:40.284+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:44:40.288+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:44:40.286+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:44:40.333+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:44:40.376+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:44:40.374+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:44:40.410+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:44:40.409+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:44:40.521+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.258 seconds
+[2025-04-20T22:45:30.753+0800] {processor.py:186} INFO - Started process (PID=154258) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:45:30.755+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:45:30.759+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:45:30.757+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:45:30.795+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:45:30.836+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:45:30.835+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:45:30.890+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:45:30.889+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:45:30.981+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.247 seconds
+[2025-04-20T22:46:23.493+0800] {processor.py:186} INFO - Started process (PID=154805) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:46:23.496+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:46:23.500+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:46:23.499+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:46:23.549+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:46:23.597+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:46:23.595+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:46:23.632+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:46:23.630+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:46:23.732+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.261 seconds
+[2025-04-20T22:47:16.348+0800] {processor.py:186} INFO - Started process (PID=155420) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:47:16.351+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:47:16.355+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:47:16.353+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:47:16.405+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:47:16.451+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:47:16.449+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:47:16.482+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:47:16.481+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:47:16.576+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.249 seconds
+[2025-04-20T22:48:08.375+0800] {processor.py:186} INFO - Started process (PID=156109) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:48:08.378+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:48:08.384+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:48:08.383+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:48:08.421+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:48:08.462+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:48:08.460+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:48:08.523+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:48:08.521+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:48:08.642+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.285 seconds
+[2025-04-20T22:49:00.724+0800] {processor.py:186} INFO - Started process (PID=156725) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:49:00.727+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:49:00.731+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:49:00.729+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:49:00.775+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:49:00.819+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:49:00.817+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:49:00.880+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:49:00.878+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:49:00.979+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.273 seconds
+[2025-04-20T22:49:52.095+0800] {processor.py:186} INFO - Started process (PID=157342) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:49:52.099+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:49:52.103+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:49:52.101+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:49:52.152+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:49:52.200+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:49:52.198+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:49:52.263+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:49:52.261+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:49:52.349+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.273 seconds
+[2025-04-20T22:50:59.463+0800] {processor.py:186} INFO - Started process (PID=157744) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:50:59.469+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:50:59.480+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:50:59.478+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:50:59.557+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:50:59.645+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:50:59.643+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:50:59.751+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:50:59.746+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:50:59.889+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.473 seconds
+[2025-04-20T22:52:19.871+0800] {processor.py:186} INFO - Started process (PID=158080) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:52:19.874+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:52:19.879+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:52:19.877+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:52:19.932+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:52:19.988+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:52:19.985+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:52:20.026+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:52:20.024+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:52:20.145+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.294 seconds
+[2025-04-20T22:53:31.640+0800] {processor.py:186} INFO - Started process (PID=158627) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:53:31.643+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:53:31.647+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:53:31.646+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:53:31.697+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:53:31.745+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:53:31.743+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:53:31.784+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:53:31.782+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:53:31.900+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.287 seconds
+[2025-04-20T22:54:35.778+0800] {processor.py:186} INFO - Started process (PID=159176) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:54:35.781+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:54:35.785+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:54:35.784+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:54:35.822+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:54:35.884+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:54:35.883+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:54:35.958+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:54:35.955+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:54:36.109+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.356 seconds
+[2025-04-20T22:55:39.119+0800] {processor.py:186} INFO - Started process (PID=159724) to work on /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:55:39.122+0800] {processor.py:914} INFO - Processing file /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py for tasks to queue
+[2025-04-20T22:55:39.130+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:55:39.125+0800] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:55:39.184+0800] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py
+[2025-04-20T22:55:39.281+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:55:39.279+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-20T22:55:39.359+0800] {logging_mixin.py:190} INFO - [2025-04-20T22:55:39.356+0800] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30 00:00:00+00:00, run_after=2021-07-31 00:00:00+00:00
+[2025-04-20T22:55:39.487+0800] {processor.py:208} INFO - Processing /mnt/c/Users/wu_li/OneDrive/Desktop/Airflow_pract/dags/first_dag.py took 0.396 seconds
